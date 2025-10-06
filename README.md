@@ -1,20 +1,43 @@
-This is your group repo for your final project for COGS108.
+# 🏈 Predicting NFL Draft Outcomes for College Quarterbacks
 
-This repository is private, and is only visible to the course instructors and your group mates; it is not visible to anyone else.
+### 👤 Personal Version by [Finn808](https://github.com/Finn808)
 
-Template notebooks for each component are provided. Only work on the notebook prior to its due date. After each submission is due, move onto the next notebook (For example, after the proposal is due, start working in the Data Checkpoint notebook). 
+This repository contains my personal version of a group project originally developed for **COGS 108 (Spring 2025)** at **UC San Diego**.  
+The project explores whether a college quarterback’s **NFL Combine metrics** and **college statistics** can accurately predict their chances of being drafted into the NFL.
 
-This repository will be frozen on the final project due date. No further changes can be made after that time.
+---
 
-Your project proposal and final project will be graded based solely on the corresponding project notebooks in this repository.
+## 📘 Project Overview
 
-Template Jupyter notebooks have been included, with your group number replacing the XXX in the following file names. For each due date, make sure you have a notebook present in this repository by each due date with the following name (where XXX is replaced by your group number):
+**Research Question:**  
+> To what extent can a quarterback’s college performance metrics and NFL Combine results predict their likelihood of being drafted into the NFL, and which specific features (e.g., college QBR, rushing statistics, 40-yard dash time) are most strongly associated with this outcome?
 
-- `ProjectProposal_groupXXX.ipynb`
-- `DataCheckpoint_groupXXX.ipynb`
-- `EDACheckpoint_groupXXX.ipynb`
-- `FinalProject_groupXXX.ipynb`
+We utilized datasets from both the **NFL Combine** and **NCAA college football statistics**, conducting an **exploratory data analysis** to identify potential key predictors of draft outcomes.
 
-This is *your* repo. You are free to manage the repo as you see fit, edit this README, add data files, add scripts, etc. So long as there are the four files above on due dates with the required information, the rest is up to you all. 
+Our analysis focused on:
+- **Total Yards**
+- **Interceptions**
+- **Touchdown-to-Interception Ratios**
+- **Height and Weight Measurements**
+- **40-Yard Dash Times**
 
-Also, you are free and encouraged to share this project after the course and to add it to your portfolio. Just be sure to fork it to your GitHub at the end of the quarter!
+After examining these factors, we concluded that while certain trends exist among drafted players, **no single metric consistently predicts whether a college quarterback will be drafted**. Instead, the results suggest that the draft process is influenced by a more complex combination of performance, athleticism, and contextual factors.
+
+---
+
+## 🧩 Methods & Tools
+
+- **Python 3.x**
+- **Jupyter Notebook**
+- **Pandas**, **NumPy**
+- **Matplotlib**, **Seaborn**
+- **Exploratory Data Analysis (EDA)** techniques
+
+---
+
+## 🚀 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Finn808/MyFinalProject_SP25.git
+   cd MyFinalProject_SP25
